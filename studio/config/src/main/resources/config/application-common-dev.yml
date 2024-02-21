@@ -1,37 +1,38 @@
 # Global Mysql、Redis and RabbitMQ connect configuration items
 common:
   rabbitmq:
-    host: localhost
+    host: 192.168.4.203
     username: root
     password: 123456
-    port: 5672
+    port: 5673
   redis:
-    host: localhost
-    password: 123456
-    port: 6379
+    host: 192.168.4.203
+#    password: 234*%TIKJK
+    password: 234*%TIKJK
+    port: 6377
   mysql:
     primary:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: sdf%KGK*123
+      url: jdbc:mysql://192.168.4.203:3309/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     master:
       username: root
-      password: 123456
-      url: jdbc:p6spy:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: sdf%KGK*123
+      url: jdbc:p6spy:mysql://192.168.4.203:3309/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     flowable:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
+      password: sdf%KGK*123
+      url: jdbc:mysql://192.168.4.203:3309/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
     quartz:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: sdf%KGK*123
+      url: jdbc:mysql://192.168.4.203:3309/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     druid:
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: sdf%KGK*123
+      url: jdbc:mysql://192.168.4.203:3309/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
     dts:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: 123456
-      url: jdbc:mysql://localhost:3306/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8
+      password: sdf%KGK*123
+      url: jdbc:mysql://192.168.4.203:3309/studio?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8

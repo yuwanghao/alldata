@@ -15,6 +15,8 @@
             <groupId>com.aspose</groupId>
             <artifactId>aspose-words</artifactId>
             <version>${aspose.version}</version>
+            <scope>system</scope>
+            <systemPath>D:/codeDir/zt/alldata/lib/aspose-words-20.3-jdk17.jar</systemPath>
         </dependency>
     </dependencies>
 
